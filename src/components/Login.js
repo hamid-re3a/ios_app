@@ -12,7 +12,7 @@ export default class Login extends React.Component {
                         </Button>
                     </Left>
                     <Right>
-                        <Text style={{ fontFamily : 'IRANSansMobile' , color: 'white'}}>صفحه ورود</Text>
+                        <Text style={{ color: 'white'}}>صفحه ورود</Text>
                     </Right>
                 </Header>
                 <Content>

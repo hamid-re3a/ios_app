@@ -6,9 +6,9 @@ import Home from "./Home";
 export default class Application extends React.Component {
 
     componentWillMount() {
-        this.state = {
+        this.setState({
             view : <Splash />
-        };
+        });
 
 
         setTimeout(() => {

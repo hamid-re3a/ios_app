@@ -6,7 +6,7 @@ export default class Splash extends React.Component {
         return (
             <Container style={{ flex: 1 , justifyContent: 'center' , alignItems: 'center' , backgroundColor : '#34495e'}}>
                 <StatusBar backgroundColor="#2c3e50" barStyle="light-content"/>
-                <Text style={{ color : 'white',fontSize : 18, fontFamily : 'IRANSansMobile'}}>مجله آموزشی راکت</Text>
+                <Text style={{ color : 'white'}}>مجله آموزشی راکت</Text>
                 <Spinner />
             </Container>
         )
